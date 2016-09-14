@@ -1,0 +1,6 @@
+framework module ChameleonStylesheets {
+  umbrella header "ChameleonStylesheets-umbrella.h"
+
+  export *
+  module * { export * }
+}

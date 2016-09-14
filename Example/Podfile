@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ChameleonStylesheets_Example' do
+  pod 'ChameleonStylesheets', :path => '../'
+
+  target 'ChameleonStylesheets_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

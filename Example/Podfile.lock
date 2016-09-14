@@ -1,0 +1,16 @@
+PODS:
+  - ChameleonStylesheets (0.1.0)
+
+DEPENDENCIES:
+  - ChameleonStylesheets (from `../`)
+
+EXTERNAL SOURCES:
+  ChameleonStylesheets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChameleonStylesheets: 6f73be500c58842b5a37395dde8c05bf766b925d
+
+PODFILE CHECKSUM: 9dfa9594ee79ed0b51ae40e7309ed86c5c62c3bf
+
+COCOAPODS: 1.0.1
