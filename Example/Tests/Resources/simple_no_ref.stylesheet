@@ -1,0 +1,28 @@
+{
+	"chameleon_stylesheet": "1.0",
+	"sizes": {
+		"normal": "10"
+	},
+	"colors": {
+		"red": "#ff0000",
+		"green": "[0,255,0]",
+		"yellow": "#ffff00"
+	},
+	"fonts": {
+		"success": {
+			"name": "ArialMT",
+			"size": "11",
+			"color": "#00ff00"
+		},
+		"warning": {
+			"name": "Arial-ItalicMT",
+			"size": "12",
+			"color": "#ffff00"
+		},
+		"failure": {
+			"name": "Arial-BoldMT",
+			"size": "13",
+			"color": "#ff0000aa"
+		}
+	}
+}

@@ -1,8 +1,15 @@
-import UIKit
-import XCTest
-import ChameleonStylesheets
+//
+//  StylesheetTests.swift
+//  ChameleonStylesheets
+//
+//  Created by Andreas on 22.09.16.
+//  Copyright © 2016 DreyHomeDev. All rights reserved.
+//
 
-class Tests: XCTestCase {
+import XCTest
+@testable import ChameleonStylesheets
+
+class StylesheetTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -15,15 +22,13 @@ class Tests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }

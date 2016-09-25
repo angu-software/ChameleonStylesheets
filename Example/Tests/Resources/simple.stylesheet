@@ -1,0 +1,28 @@
+{
+	"chameleon_stylesheet": "1.0",
+	"sizes": {
+		"normal": "10"
+	},
+	"colors": {
+		"red": "#ff0000",
+		"green": "[0,255,0]",
+		"yellow": "#ffff00"
+	},
+	"fonts": {
+		"success": {
+			"name": "system",
+			"size": "sref:normal",
+			"color": "cref:green"
+		},
+		"warning": {
+			"name": "fref:success",
+			"size": "fref:success",
+			"color": "cref:yellow"
+		},
+		"failure": {
+			"name": "fref:success",
+			"size": "fref:success",
+			"color": "cref:red"
+		}
+	}
+}

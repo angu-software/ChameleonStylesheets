@@ -12,9 +12,14 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		84895D8574B91C7CBE2E9C29 /* Pods_ChameleonStylesheets_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECF0E419DB7B8FDA5624B5E /* Pods_ChameleonStylesheets_Tests.framework */; };
-		CB61E33EE3127F1A513E0E18 /* Pods_ChameleonStylesheets_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B16E159F78A376A1025A456 /* Pods_ChameleonStylesheets_Example.framework */; };
+		87658BA11FFE584C864FB94B /* Pods_ChameleonStylesheets_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4900DDBE656170E10BA428 /* Pods_ChameleonStylesheets_Example.framework */; };
+		B62FEB6A6126D56D8F7B8A2D /* Pods_ChameleonStylesheets_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8D95C4DCF22CC9752B4FF0 /* Pods_ChameleonStylesheets_Tests.framework */; };
+		E183DCD41D8D51D3008359AD /* StylesheetValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E183DCCB1D8D5151008359AD /* StylesheetValidatorTests.swift */; };
+		E183DCD71D917791008359AD /* StringColorValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E183DCD61D917791008359AD /* StringColorValueTests.swift */; };
+		E1FACB991D94130D00A05CFD /* fonts_only.stylesheet in Resources */ = {isa = PBXBuildFile; fileRef = E1FACB931D94130300A05CFD /* fonts_only.stylesheet */; };
+		E1FACB9A1D94130D00A05CFD /* simple.stylesheet in Resources */ = {isa = PBXBuildFile; fileRef = E1FACB941D94130300A05CFD /* simple.stylesheet */; };
+		E1FACB9B1D94130D00A05CFD /* simple_no_ref.stylesheet in Resources */ = {isa = PBXBuildFile; fileRef = E1FACB951D94130300A05CFD /* simple_no_ref.stylesheet */; };
+		E1FACB9D1D9417D300A05CFD /* StylesheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FACB9C1D9417D300A05CFD /* StylesheetTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B16E159F78A376A1025A456 /* Pods_ChameleonStylesheets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChameleonStylesheets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D917EF14237C81DDB2C2DD3 /* ChameleonStylesheets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChameleonStylesheets.podspec; path = ../ChameleonStylesheets.podspec; sourceTree = "<group>"; };
-		1056143A6072960CB777A79C /* Pods-ChameleonStylesheets_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Tests/Pods-ChameleonStylesheets_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B4028D8D79863BF9996E455 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1E4900DDBE656170E10BA428 /* Pods_ChameleonStylesheets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChameleonStylesheets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F60ACF74AF3DC3B4B46559D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2ECF0E419DB7B8FDA5624B5E /* Pods_ChameleonStylesheets_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChameleonStylesheets_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCD4BA9B6A492B4F58CD1FD /* Pods-ChameleonStylesheets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Example/Pods-ChameleonStylesheets_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC70841E715ADE88DF43143 /* Pods-ChameleonStylesheets_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Tests/Pods-ChameleonStylesheets_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ChameleonStylesheets_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChameleonStylesheets_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +48,15 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ChameleonStylesheets_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChameleonStylesheets_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9727946C18507B9E21143589 /* Pods-ChameleonStylesheets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Example/Pods-ChameleonStylesheets_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BB990B698B1E0CE9DEFE142B /* Pods-ChameleonStylesheets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Example/Pods-ChameleonStylesheets_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB0D86237DF71C626D4D5CB6 /* Pods-ChameleonStylesheets_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Tests/Pods-ChameleonStylesheets_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A6A59B560B05D782E4369DC6 /* Pods-ChameleonStylesheets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Example/Pods-ChameleonStylesheets_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AAB404E56B65324EAE21DD31 /* Pods-ChameleonStylesheets_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonStylesheets_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChameleonStylesheets_Tests/Pods-ChameleonStylesheets_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE8D95C4DCF22CC9752B4FF0 /* Pods_ChameleonStylesheets_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChameleonStylesheets_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E183DCCB1D8D5151008359AD /* StylesheetValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylesheetValidatorTests.swift; sourceTree = "<group>"; };
+		E183DCD61D917791008359AD /* StringColorValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringColorValueTests.swift; sourceTree = "<group>"; };
+		E1FACB931D94130300A05CFD /* fonts_only.stylesheet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fonts_only.stylesheet; sourceTree = "<group>"; };
+		E1FACB941D94130300A05CFD /* simple.stylesheet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simple.stylesheet; sourceTree = "<group>"; };
+		E1FACB951D94130300A05CFD /* simple_no_ref.stylesheet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simple_no_ref.stylesheet; sourceTree = "<group>"; };
+		E1FACB9C1D9417D300A05CFD /* StylesheetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylesheetTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB61E33EE3127F1A513E0E18 /* Pods_ChameleonStylesheets_Example.framework in Frameworks */,
+				87658BA11FFE584C864FB94B /* Pods_ChameleonStylesheets_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,18 +72,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84895D8574B91C7CBE2E9C29 /* Pods_ChameleonStylesheets_Tests.framework in Frameworks */,
+				B62FEB6A6126D56D8F7B8A2D /* Pods_ChameleonStylesheets_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53CE7047E43E6E714CD7CD39 /* Frameworks */ = {
+		0A026B5C05E5BB2413A9DF31 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B16E159F78A376A1025A456 /* Pods_ChameleonStylesheets_Example.framework */,
-				2ECF0E419DB7B8FDA5624B5E /* Pods_ChameleonStylesheets_Tests.framework */,
+				5BCD4BA9B6A492B4F58CD1FD /* Pods-ChameleonStylesheets_Example.debug.xcconfig */,
+				A6A59B560B05D782E4369DC6 /* Pods-ChameleonStylesheets_Example.release.xcconfig */,
+				5EC70841E715ADE88DF43143 /* Pods-ChameleonStylesheets_Tests.debug.xcconfig */,
+				AAB404E56B65324EAE21DD31 /* Pods-ChameleonStylesheets_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		604AA4A92EABE7AA1B7368B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E4900DDBE656170E10BA428 /* Pods_ChameleonStylesheets_Example.framework */,
+				AE8D95C4DCF22CC9752B4FF0 /* Pods_ChameleonStylesheets_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,8 +106,8 @@
 				607FACD21AFB9204008FA782 /* Example for ChameleonStylesheets */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				F1A0A878AF099FAB9971F71C /* Pods */,
-				53CE7047E43E6E714CD7CD39 /* Frameworks */,
+				0A026B5C05E5BB2413A9DF31 /* Pods */,
+				604AA4A92EABE7AA1B7368B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +145,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				E1FACB8F1D93E0BD00A05CFD /* Validation */,
+				E183DCD61D917791008359AD /* StringColorValueTests.swift */,
+				E1FACB921D94130300A05CFD /* Resources */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -148,15 +171,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		F1A0A878AF099FAB9971F71C /* Pods */ = {
+		E1FACB8F1D93E0BD00A05CFD /* Validation */ = {
 			isa = PBXGroup;
 			children = (
-				BB990B698B1E0CE9DEFE142B /* Pods-ChameleonStylesheets_Example.debug.xcconfig */,
-				9727946C18507B9E21143589 /* Pods-ChameleonStylesheets_Example.release.xcconfig */,
-				1056143A6072960CB777A79C /* Pods-ChameleonStylesheets_Tests.debug.xcconfig */,
-				EB0D86237DF71C626D4D5CB6 /* Pods-ChameleonStylesheets_Tests.release.xcconfig */,
+				E183DCCB1D8D5151008359AD /* StylesheetValidatorTests.swift */,
+				E1FACB9C1D9417D300A05CFD /* StylesheetTests.swift */,
 			);
-			name = Pods;
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		E1FACB921D94130300A05CFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1FACB931D94130300A05CFD /* fonts_only.stylesheet */,
+				E1FACB941D94130300A05CFD /* simple.stylesheet */,
+				E1FACB951D94130300A05CFD /* simple_no_ref.stylesheet */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ChameleonStylesheets_Example" */;
 			buildPhases = (
-				5AB3B44EB5616D9BF12DAC16 /* [CP] Check Pods Manifest.lock */,
+				5316177FA1A2E021BE56D78C /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				78457B538B853B15F15BB114 /* [CP] Embed Pods Frameworks */,
-				AA1C5A3BB4ABCC4316391100 /* [CP] Copy Pods Resources */,
+				BF2BD0E8364BA970B6E8CA77 /* [CP] Embed Pods Frameworks */,
+				03489597107BA6363B04ACF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ChameleonStylesheets_Tests" */;
 			buildPhases = (
-				3B32AFA5E2F1E7B473063817 /* [CP] Check Pods Manifest.lock */,
+				D255F2608F84B15E605C6C6E /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				838F9E317612A402782774AC /* [CP] Embed Pods Frameworks */,
-				9CEB6A00713D57D085603E11 /* [CP] Copy Pods Resources */,
+				BF54E2A0756D8F95E8A41B88 /* [CP] Embed Pods Frameworks */,
+				CA85E33E8E3423D2EC64E226 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,14 +241,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = CocoaPods;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = DreyHomeDev;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D5QKU6QD59;
+						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -256,13 +290,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FACB991D94130D00A05CFD /* fonts_only.stylesheet in Resources */,
+				E1FACB9A1D94130D00A05CFD /* simple.stylesheet in Resources */,
+				E1FACB9B1D94130D00A05CFD /* simple_no_ref.stylesheet in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3B32AFA5E2F1E7B473063817 /* [CP] Check Pods Manifest.lock */ = {
+		03489597107BA6363B04ACF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChameleonStylesheets_Example/Pods-ChameleonStylesheets_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5316177FA1A2E021BE56D78C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,25 +326,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5AB3B44EB5616D9BF12DAC16 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		78457B538B853B15F15BB114 /* [CP] Embed Pods Frameworks */ = {
+		BF2BD0E8364BA970B6E8CA77 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,7 +344,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChameleonStylesheets_Example/Pods-ChameleonStylesheets_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		838F9E317612A402782774AC /* [CP] Embed Pods Frameworks */ = {
+		BF54E2A0756D8F95E8A41B88 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,7 +359,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChameleonStylesheets_Tests/Pods-ChameleonStylesheets_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CEB6A00713D57D085603E11 /* [CP] Copy Pods Resources */ = {
+		CA85E33E8E3423D2EC64E226 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,19 +374,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChameleonStylesheets_Tests/Pods-ChameleonStylesheets_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA1C5A3BB4ABCC4316391100 /* [CP] Copy Pods Resources */ = {
+		D255F2608F84B15E605C6C6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChameleonStylesheets_Example/Pods-ChameleonStylesheets_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -368,7 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				E183DCD41D8D51D3008359AD /* StylesheetValidatorTests.swift in Sources */,
+				E1FACB9D1D9417D300A05CFD /* StylesheetTests.swift in Sources */,
+				E183DCD71D917791008359AD /* StringColorValueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,8 +454,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -460,8 +501,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -480,40 +523,46 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB990B698B1E0CE9DEFE142B /* Pods-ChameleonStylesheets_Example.debug.xcconfig */;
+			baseConfigurationReference = 5BCD4BA9B6A492B4F58CD1FD /* Pods-ChameleonStylesheets_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChameleonStylesheets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9727946C18507B9E21143589 /* Pods-ChameleonStylesheets_Example.release.xcconfig */;
+			baseConfigurationReference = A6A59B560B05D782E4369DC6 /* Pods-ChameleonStylesheets_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChameleonStylesheets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1056143A6072960CB777A79C /* Pods-ChameleonStylesheets_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5EC70841E715ADE88DF43143 /* Pods-ChameleonStylesheets_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D5QKU6QD59;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -526,13 +575,16 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChameleonStylesheets_Example.app/ChameleonStylesheets_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB0D86237DF71C626D4D5CB6 /* Pods-ChameleonStylesheets_Tests.release.xcconfig */;
+			baseConfigurationReference = AAB404E56B65324EAE21DD31 /* Pods-ChameleonStylesheets_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = D5QKU6QD59;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -541,6 +593,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChameleonStylesheets_Example.app/ChameleonStylesheets_Example";
 			};
 			name = Release;
 		};
