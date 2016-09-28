@@ -100,8 +100,8 @@ open class StylesheetValidator: NSObject {
     // MARK: Reference check
     
     func isValidReference(_ reference: String,
-                          inStylesheet stylesheet: Stylesheet,
-                          fromFontAttribure: FontAttribute? = nil,
+                          in stylesheet: Stylesheet,
+                          from fontAttribure: FontAttribute? = nil,
                           referencePath: [String] = []) -> Bool {
         guard reference.isReference else {
             return false
@@ -122,8 +122,8 @@ open class StylesheetValidator: NSObject {
             var newReferencePath = referencePath
             newReferencePath.append(reference)
             return isValidReference(nextReference,
-                                    inStylesheet: stylesheet,
-                                    fromFontAttribure: fromFontAttribure,
+                                    in: stylesheet,
+                                    from: fontAttribure,
                                     referencePath: newReferencePath)
         }
         
@@ -139,26 +139,30 @@ open class StylesheetValidator: NSObject {
                 return true
             }
         case .font:
-            guard let fontAttribute = fromFontAttribure,
+            guard let fontAttribute = fontAttribure,
                 let fontValue = referenceValue as? StylesheetFont,
-                let referncedFontValue = fontValue[fontAttribute] else {
+                let referencedFontValue = fontValue[fontAttribute] else {
                 return false
             }
             
-            if referncedFontValue.isSizeValue {
+            if referencedFontValue.isFontName {
                 return true
             }
             
-            if referncedFontValue.isColorValue {
+            if referencedFontValue.isSizeValue {
                 return true
             }
             
-            if referncedFontValue.isReference {
+            if referencedFontValue.isColorValue {
+                return true
+            }
+            
+            if referencedFontValue.isReference {
                 var newReferencePath = referencePath
                 newReferencePath.append(reference)
-                return isValidReference(referncedFontValue,
-                                        inStylesheet: stylesheet,
-                                        fromFontAttribure: fromFontAttribure,
+                return isValidReference(referencedFontValue,
+                                        in: stylesheet,
+                                        from: fontAttribure,
                                         referencePath: newReferencePath)
             }
         }

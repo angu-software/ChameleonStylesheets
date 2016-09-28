@@ -68,6 +68,15 @@ open class Stylesheet: NSObject {
     
     // MARK: Public methods
     
+    public static func availableFontNames() -> [String] {
+        
+        var availableFontNames = ["System", "System-Bold", "System-Italic", "System-MonospacedDigit"]
+        for fontFamily in UIFont.familyNames {
+            availableFontNames.append(contentsOf: UIFont.fontNames(forFamilyName: fontFamily))
+        }
+        return availableFontNames.sorted()
+    }
+    
     public func color(withName: String) -> UIColor? {
         return nil
     }

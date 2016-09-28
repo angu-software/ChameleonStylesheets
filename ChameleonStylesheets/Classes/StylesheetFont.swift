@@ -57,6 +57,7 @@ internal extension Dictionary where Key: ExpressibleByStringLiteral {
 internal extension String {
     
     var isFontName: Bool {
-        return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).characters.count > 0
+        let fontName = self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).lowercased()
+        return !self.isReference && Stylesheet.availableFontNames().map({$0.lowercased()}).contains(fontName)
     }
 }

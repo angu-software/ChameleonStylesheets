@@ -120,6 +120,9 @@ class StylesheetValidatorTests: XCTestCase {
         XCTAssertFalse(stylesheetValidator.isValidFont(["name": "cref:failure",
                                                        "size": "cref:failure",
                                                        "color": "cref:success"]))
+        XCTAssertFalse(stylesheetValidator.isValidFont(["name": "cref:failure",
+                                                        "size": "10",
+                                                        "color": "#ffffff"]))
     }
     
     // MARK: References
@@ -130,12 +133,19 @@ class StylesheetValidatorTests: XCTestCase {
         XCTAssertNotNil(simpleStylesheet)
         
         // Sizes
-        XCTAssertTrue(stylesheetValidator.isValidReference("sref:normal", inStylesheet: simpleStylesheet!))
+        XCTAssertTrue(stylesheetValidator.isValidReference("sref:normal", in: simpleStylesheet!))
         
         // Colors
-        XCTAssertTrue(stylesheetValidator.isValidReference("cref:red", inStylesheet: simpleStylesheet!))
-        XCTAssertTrue(stylesheetValidator.isValidReference("cref:green", inStylesheet: simpleStylesheet!))
-        XCTAssertTrue(stylesheetValidator.isValidReference("cref:yellow", inStylesheet: simpleStylesheet!))
+        XCTAssertTrue(stylesheetValidator.isValidReference("cref:red", in: simpleStylesheet!))
+        XCTAssertTrue(stylesheetValidator.isValidReference("cref:green", in: simpleStylesheet!))
+        XCTAssertTrue(stylesheetValidator.isValidReference("cref:yellow", in: simpleStylesheet!))
         
+        // Fonts
+        XCTAssertTrue(stylesheetValidator.isValidReference("sref:normal", in: simpleStylesheet!, from: .size))
+        XCTAssertTrue(stylesheetValidator.isValidReference("cref:green", in: simpleStylesheet!, from: .color))
+        XCTAssertTrue(stylesheetValidator.isValidReference("cref:yellow", in: simpleStylesheet!, from: .color))
+        XCTAssertTrue(stylesheetValidator.isValidReference("cref:red", in: simpleStylesheet!, from: .color))
+        XCTAssertTrue(stylesheetValidator.isValidReference("fref:success", in: simpleStylesheet!, from: .name))
+        XCTAssertTrue(stylesheetValidator.isValidReference("fref:success", in: simpleStylesheet!, from: .size))
     }
 }
